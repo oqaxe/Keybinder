@@ -1,0 +1,35 @@
+{
+  "serviceName": "Keybinder",
+  "version": "1.2.3",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "status": "running",
+  "uptimeSeconds": 3600,
+  "cpuUsagePercent": 12.5,
+  "memoryUsageMB": 512,
+  "diskSpaceFreeGB": 25.0,
+  "activeKeybindings": 15,
+  "lastSuccessfulBindingUpdate": "2024-10-27T10:20:00Z",
+  "pendingTasks": 0,
+  "errorsLastMinute": 0,
+  "warningsLastMinute": 2,
+  "environment": "production",
+  "dependencies": {
+    "configService": {
+      "status": "ok",
+      "version": "2.0.1"
+    },
+    "loggingService": {
+      "status": "ok",
+      "version": "1.5.0"
+    }
+  },
+  "healthChecks": {
+    "databaseConnection": "ok",
+    "messageQueue": "ok"
+  },
+  "metadata": {
+    "hostName": "keybinder-server-01",
+    "ipAddress": "192.168.1.100",
+    "region": "us-east-1"
+  }
+}
